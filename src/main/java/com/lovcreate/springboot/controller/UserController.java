@@ -1,4 +1,4 @@
-package com.lovcreate.springboot;
+package com.lovcreate.springboot.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +15,6 @@ public class UserController {
 
     @RequestMapping(value = "hello")
     public String hello() {
-        return "Hello springBoot";
+        return "a springBoot";
     }
 }
